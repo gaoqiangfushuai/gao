@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     Fragment currentFragment;
     private long exitTime;
     @Override
+    //
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
