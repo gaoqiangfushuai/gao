@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/special_two_img"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher"/>
+    <RelativeLayout
+        android:background="#55585451"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/special_two_img"
+        >
+        <TextView
+            android:id="@+id/special_two_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/special_two_img_author"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            app:civ_border_width="2dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#ff8400"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

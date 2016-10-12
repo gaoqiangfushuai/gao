@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zwq.mygiftapp.activity.SpecialOneActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/special_one_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#339966">
+        <TextView
+            android:id="@+id/special_one_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "center"
+            android:text="标题"
+            android:textSize="20sp"
+            />
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/special_one_content_img"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/special_one_toolbar"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/tv_special_one_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/special_one_content_img"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="导读"/>
+    <GridView
+        android:id="@+id/special_one_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_special_one_desc"
+        android:numColumns="3"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"></GridView>
+</RelativeLayout>

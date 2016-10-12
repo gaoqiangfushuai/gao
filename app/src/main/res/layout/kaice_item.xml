@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="15dp"
+        android:id="@+id/img_kaice"
+        android:src="@mipmap/gift_pic"
+        android:layout_centerVertical="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_kaice_name"
+        android:textSize="16sp"
+        android:textColor="#080808"
+        android:layout_toRightOf="@+id/img_kaice"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_kaice_date"
+        android:textColor="@color/colorGreen"
+        android:layout_alignBottom="@+id/img_kaice"
+        android:layout_toRightOf="@+id/img_kaice"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_kaice_company"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv_btn"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/img_kaice"
+        />
+
+    <TextView
+        android:id="@+id/tv_btn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="查看"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="#339966"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+

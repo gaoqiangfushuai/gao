@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zwq.mygiftapp.fragment.HotFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <TextView
+            android:id="@+id/competitive"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#d9aeae"
+            android:gravity="center_vertical"
+            android:text="  精品推荐" />
+        <ListView
+            android:id="@+id/list_competitive"
+            android:layout_below="@+id/competitive"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+        <TextView
+            android:id="@+id/hot"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#d9aeae"
+            android:gravity="center_vertical"
+            android:text="  热门推荐" />
+        <GridView
+            android:id="@+id/grid_hot"
+            android:layout_below="@+id/hot"
+            android:layout_marginTop="10dp"
+            android:numColumns="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></GridView>
+    </RelativeLayout>
+
+</LinearLayout>
