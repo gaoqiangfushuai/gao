@@ -32,7 +32,6 @@ import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
 public class SearchActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     @BindView(R.id.search_toolbar)
     Toolbar toolbar;
