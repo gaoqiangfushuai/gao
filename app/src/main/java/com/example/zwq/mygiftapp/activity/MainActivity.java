@@ -28,7 +28,6 @@ import com.example.zwq.mygiftapp.fragment.SpecialFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-///
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.rg)
     RadioGroup radioGroup;
