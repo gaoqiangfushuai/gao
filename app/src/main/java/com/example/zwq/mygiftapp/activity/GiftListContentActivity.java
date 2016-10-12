@@ -47,7 +47,6 @@ public class GiftListContentActivity extends AppCompatActivity {
     TextView tv_btn;
     @BindView(R.id.gift_toolbar)
     Toolbar toolbar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
