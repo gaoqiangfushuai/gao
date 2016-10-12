@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         initFragment();
         addFragment();
-        toolbar.setTitle("");
+        toolbar.setTitle( "");
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.mipmap.title_bar_menu);
         textView.setText("礼包精灵");
